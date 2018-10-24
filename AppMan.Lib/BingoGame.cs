@@ -6,17 +6,23 @@ namespace AppMan.Lib
 {
     public class BingoGame
     {
-        public int Columns { get;  } = 5;
-        public int Rows { get; } = 5;
+        public static int Columns { get;  } = 5;
+        public static int Rows { get; } = 5;
 
-        public Dictionary<(int, int), (int, int)> BingoBoard { get; } = new Dictionary<(int, int), (int, int)>();
+        Dictionary<(int, int), (int, int)> BingoBoard { get; } = new Dictionary<(int, int), (int, int)>();
 
         public BingoGame()
         {
-            BingoBoard = NewBoard();
+            BingoBoard = newBoard();
         }
 
-        Dictionary<(int, int), (int, int)> NewBoard()
+        public (Dictionary<(int, int), (int, int)>, bool) Step(params int[] input)
+        {
+            check(input);
+            return (BingoBoard, isBingo);
+        }
+
+        private Dictionary<(int, int), (int, int)> newBoard()
         {
             var bingoBoard = new Dictionary<(int, int), (int, int)>();
             int no = 0;
@@ -30,7 +36,7 @@ namespace AppMan.Lib
             return bingoBoard;
         }
 
-        public void Check(params int[] input)
+        private void check(params int[] input)
         {
             foreach (var num in input)
             {
@@ -39,7 +45,7 @@ namespace AppMan.Lib
             }
         }
 
-        public bool IsBingo
+        private bool isBingo
         {
             get
             {
@@ -82,7 +88,6 @@ namespace AppMan.Lib
                 return isBingo;
             }
         }
-
 
     }
 }

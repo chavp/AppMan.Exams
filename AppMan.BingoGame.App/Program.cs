@@ -11,19 +11,20 @@ namespace AppMan.BingoGame.App
         static void Main(string[] args)
         {
             var bingoGame = new BingoGame();
-            Display(bingoGame);
+            (Dictionary<(int, int), (int, int)> board, bool isBingo) = bingoGame.Step();
+            Display(board);
             WriteLine("-------------------------------");
-            while (!bingoGame.IsBingo)
+            while (!isBingo)
             {
                 Write("Please input num [Enter]: ");
                 string input_st = ReadLine();
                 int input;
                 if (int.TryParse(input_st, out input))
                 {
-                    bingoGame.Check(input);
+                    (board, isBingo) = bingoGame.Step(input);
+                    Clear();
+                    Display(board);
                 }
-                Clear();
-                Display(bingoGame);
                 WriteLine("-------------------------------");
             }
             WriteLine("Bingo!");
@@ -31,13 +32,13 @@ namespace AppMan.BingoGame.App
             ReadLine();
         }
 
-        static void Display(BingoGame bingoGame)
+        static void Display(Dictionary<(int, int), (int, int)> board)
         {
-            for (int i = 0; i < bingoGame.Rows; i++)
+            for (int i = 0; i < BingoGame.Rows; i++)
             {
-                for (int j = 0; j < bingoGame.Columns; j++)
+                for (int j = 0; j < BingoGame.Columns; j++)
                 {
-                    (int no, int check) = bingoGame.BingoBoard[(i, j)];
+                    (int no, int check) = board[(i, j)];
                     if (check == 1)
                     {
                         Write($" [{no}] ");

@@ -16,8 +16,8 @@ namespace AppMan.Exams
         public void Examples(int[] input, bool expected)
         {
             var bingoBoard = new BingoGame();
-            bingoBoard.Check(input);
-            Assert.Equal(expected, bingoBoard.IsBingo);
+            (Dictionary<(int, int), (int, int)> board, bool isBingo) = bingoBoard.Step(input);
+            Assert.Equal(expected, isBingo);
         }
     }
 }
