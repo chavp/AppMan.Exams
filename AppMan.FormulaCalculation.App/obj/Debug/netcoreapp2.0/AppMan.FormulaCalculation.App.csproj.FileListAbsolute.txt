@@ -1,0 +1,14 @@
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\bin\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.deps.json
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\bin\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.runtimeconfig.json
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\bin\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.runtimeconfig.dev.json
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\bin\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\bin\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.pdb
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\bin\Debug\netcoreapp2.0\AppMan.Lib.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\bin\Debug\netcoreapp2.0\AppMan.Lib.pdb
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\obj\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.csprojAssemblyReference.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\obj\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.csproj.CoreCompileInputs.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\obj\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.AssemblyInfoInputs.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\obj\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.AssemblyInfo.cs
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\obj\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.csproj.CopyComplete
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\obj\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.FormulaCalculation.App\obj\Debug\netcoreapp2.0\AppMan.FormulaCalculation.App.pdb

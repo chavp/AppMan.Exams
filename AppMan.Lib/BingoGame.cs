@@ -40,8 +40,11 @@ namespace AppMan.Lib
         {
             foreach (var num in input)
             {
-                var row_col = BingoBoard.Where(x => x.Value.Item1 == num).Single().Key;
-                BingoBoard[row_col] = (num, 1);
+                if (num <= Columns * Rows)
+                {
+                    var row_col = BingoBoard.Where(x => x.Value.Item1 == num).Single().Key;
+                    BingoBoard[row_col] = (num, 1);
+                }
             }
         }
 

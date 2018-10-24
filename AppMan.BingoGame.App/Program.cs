@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AppMan.BingoGame.App
+﻿namespace AppMan.BingoGame.App
 {
     using AppMan.Lib;
     using System.Collections.Generic;
@@ -22,9 +20,9 @@ namespace AppMan.BingoGame.App
                 if (int.TryParse(input_st, out input))
                 {
                     (board, isBingo) = bingoGame.Step(input);
-                    Clear();
-                    Display(board);
                 }
+                Clear();
+                Display(board);
                 WriteLine("-------------------------------");
             }
             WriteLine("Bingo!");

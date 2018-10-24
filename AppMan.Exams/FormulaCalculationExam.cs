@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using System.Text;
+﻿using AppMan.Lib.Expression;
 using Xunit;
 
 namespace AppMan.Exams
@@ -14,13 +10,12 @@ namespace AppMan.Exams
     {
         [Theory]
         [InlineData("(22*2) + 50", 94)]
-        //[InlineData("((2*3+12) / 2)", 15)]
-        //[InlineData("(10-5+3/2*2)", 8)]
-        public void Examples(string input, int expected)
+        [InlineData("((2*3+12) / 2)", 9)]
+        [InlineData("(10-5+3/2*2)", 8)]
+        public void Examples(string input, double expected)
         {
-            int result = 0;
-
- 
+            var result = Parser.Parse(input).Eval();
+            Assert.Equal(expected, result);
         }
     }
 }
