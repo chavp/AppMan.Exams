@@ -1,0 +1,14 @@
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\bin\Debug\netcoreapp2.0\AppMan.BingoGame.App.deps.json
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\bin\Debug\netcoreapp2.0\AppMan.BingoGame.App.runtimeconfig.json
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\bin\Debug\netcoreapp2.0\AppMan.BingoGame.App.runtimeconfig.dev.json
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\bin\Debug\netcoreapp2.0\AppMan.BingoGame.App.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\bin\Debug\netcoreapp2.0\AppMan.BingoGame.App.pdb
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\bin\Debug\netcoreapp2.0\AppMan.Lib.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\bin\Debug\netcoreapp2.0\AppMan.Lib.pdb
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\obj\Debug\netcoreapp2.0\AppMan.BingoGame.App.csprojAssemblyReference.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\obj\Debug\netcoreapp2.0\AppMan.BingoGame.App.csproj.CoreCompileInputs.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\obj\Debug\netcoreapp2.0\AppMan.BingoGame.App.AssemblyInfoInputs.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\obj\Debug\netcoreapp2.0\AppMan.BingoGame.App.AssemblyInfo.cs
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\obj\Debug\netcoreapp2.0\AppMan.BingoGame.App.csproj.CopyComplete
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\obj\Debug\netcoreapp2.0\AppMan.BingoGame.App.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.BingoGame.App\obj\Debug\netcoreapp2.0\AppMan.BingoGame.App.pdb

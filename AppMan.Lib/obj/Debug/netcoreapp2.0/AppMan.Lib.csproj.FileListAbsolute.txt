@@ -1,0 +1,17 @@
+E:\projects\appman\AppMan.Exams\AppMan.Lib\bin\Debug\netcoreapp2.0\AppMan.Lib.deps.json
+E:\projects\appman\AppMan.Exams\AppMan.Lib\bin\Debug\netcoreapp2.0\AppMan.Lib.dll
+E:\projects\appman\AppMan.Exams\AppMan.Lib\bin\Debug\netcoreapp2.0\AppMan.Lib.pdb
+E:\projects\appman\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.csproj.CoreCompileInputs.cache
+E:\projects\appman\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.AssemblyInfoInputs.cache
+E:\projects\appman\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.AssemblyInfo.cs
+E:\projects\appman\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.dll
+E:\projects\appman\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.pdb
+E:\projects\appman\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.csprojAssemblyReference.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\bin\Debug\netcoreapp2.0\AppMan.Lib.deps.json
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\bin\Debug\netcoreapp2.0\AppMan.Lib.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\bin\Debug\netcoreapp2.0\AppMan.Lib.pdb
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.csproj.CoreCompileInputs.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.AssemblyInfoInputs.cache
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.AssemblyInfo.cs
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.dll
+E:\projects\appman\ส่ง\AppMan.Exams\AppMan.Lib\obj\Debug\netcoreapp2.0\AppMan.Lib.pdb
