@@ -76,13 +76,10 @@ namespace AppMan.Lib
 
                 foreach (var sum in sums)
                 {
-                    if (sum == Rows)
+                    if (sum == Rows
+                        || sum == Columns)
                     {
                         isBingo = true;
-                    }
-                    else if (sum == Rows * Columns)
-                    {
-                        isBingo = false;
                     }
                 }
                 return isBingo;
