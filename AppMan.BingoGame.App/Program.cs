@@ -32,18 +32,18 @@
 
         static void Display(Dictionary<(int, int), (int, int)> board)
         {
-            for (int i = 0; i < BingoGame.Rows; i++)
+            for (int i = 0; i < BingoGame.BoardSize; i++)
             {
-                for (int j = 0; j < BingoGame.Columns; j++)
+                for (int j = 0; j < BingoGame.BoardSize; j++)
                 {
                     (int no, int check) = board[(i, j)];
                     if (check == 1)
                     {
-                        Write($" [{no}] ");
+                        Write($" ({no.ToString("00")}) ");
                     }
                     else
                     {
-                        Write($" {no} ");
+                        Write($"  {no.ToString("00")}  ");
                     }
                 }
 
