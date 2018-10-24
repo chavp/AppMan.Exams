@@ -57,13 +57,17 @@ namespace AppMan.Lib
 
                 for (int i = 0; i < Rows; i++)
                 {
-                    var sum = BingoBoard.Where(x => x.Key.Item1 == i).Sum(y => y.Value.Item2);
+                    var sum = BingoBoard
+                        .Where(x => x.Key.Item1 == i)
+                        .Sum(y => y.Value.Item2);
                     sums.Add(sum);
                 }
 
                 for (int i = 0; i < Columns; i++)
                 {
-                    var sum = BingoBoard.Where(x => x.Key.Item2 == i).Sum(y => y.Value.Item2);
+                    var sum = BingoBoard
+                        .Where(x => x.Key.Item2 == i)
+                        .Sum(y => y.Value.Item2);
                     sums.Add(sum);
                 }
 
@@ -71,8 +75,12 @@ namespace AppMan.Lib
                 var sum2 = 0;
                 for (int i = 0; i < Rows; i++)
                 {
-                    sum1 += BingoBoard.Where(x => x.Key.Item1 == i && x.Key.Item2 == i).Single().Value.Item2;
-                    sum2 += BingoBoard.Where(x => x.Key.Item1 == i && x.Key.Item2 == Columns - 1 - i).Single().Value.Item2;
+                    sum1 += BingoBoard
+                        .Where(x => x.Key.Item1 == i && x.Key.Item2 == i)
+                        .Single().Value.Item2;
+                    sum2 += BingoBoard
+                        .Where(x => x.Key.Item1 == i && x.Key.Item2 == Columns - 1 - i)
+                        .Single().Value.Item2;
                 }
                 sums.Add(sum1);
                 sums.Add(sum2);
@@ -83,6 +91,7 @@ namespace AppMan.Lib
                         || sum == Columns)
                     {
                         isBingo = true;
+                        break;
                     }
                 }
                 return isBingo;
